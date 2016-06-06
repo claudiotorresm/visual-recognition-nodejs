@@ -197,7 +197,7 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
     name: [perm.category].concat(perm.classes).join('_')
   };
   perm.classes.forEach(function(tag) {
-    var key =  (tag === 'negative') ? 'negative_examples' : tag + '_positive_examples';
+    var key =  (tag.match(/negative|non-fruit/)) ? 'negative_examples' : tag + '_positive_examples';
     classifierOptions[key] = fs.createReadStream(path.join(basedir, perm.category, tag + '.zip'));
   });
   visualRecognition.createClassifier(classifierOptions, function(err, classifier) {
@@ -226,18 +226,21 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
 
           var expected = (test.class && perm.classes.indexOf(test.class) > -1) ? test.class : false;
 
+          var actual = res.images[0].classifiers.length  ? res.images[0].classifiers[0].classes : [];
+
           var success;
           if (expected) {
-            success = res.images[0].classifiers.length && res.images[0].classifiers[0].classes[0].class === test.class;
+            success = actual.length && actual[0].class === test.class;
           } else {
-            success = res.images[0].classifiers.length === 0;
+            success = actual.length === 0;
           }
 
           test.success = success;
 
           console.log('%s (%s: %s) Test image %s should have class %s', success ? '✓' : 'x', perm.category, perm.classes, test.filename, test.class );
           if (!success) {
-            console.log(res.images[0].classifiers.length  ? res.images[0].classifiers[0].classes : '[no classifications returned]');
+            test.actual = actual;
+            console.log(actual.length  ? actual : '[no classifications returned]');
           }
           test.complete = true;
           next();
@@ -257,3 +260,6 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
   fs.writeFileSync(outfile, JSON.stringify(permutations));
   console.log('details written to %s', outfile);
 });
+
+
+exports.permutations = permutations;

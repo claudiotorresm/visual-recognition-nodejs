@@ -1,0 +1,7 @@
+applications:
+- name: vr-bundle-test
+  command: node test/bundle-test-server.js
+  path: .
+  memory: 512M
+  env:
+    NODE_ENV: production
