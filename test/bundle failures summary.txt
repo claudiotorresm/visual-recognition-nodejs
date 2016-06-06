@@ -1,0 +1,211 @@
+dogs/tests/0.jpg (husky)
+ - unrecognized when selected bundles were beagle, husky, negatives
+ - unrecognized when selected bundles were beagle, dalmation, goldenretriever, husky
+ - unrecognized when selected bundles were dalmation, goldenretriever, husky, negatives
+dogs/tests/2.jpg (dalmation)
+ - misclassified as beagle when selected bundles were beagle, goldenretriever, negatives
+ - misclassified as beagle when selected bundles were beagle, goldenretriever, husky, negatives
+dogs/tests/4.jpg (beagle)
+ - unrecognized when selected bundles were beagle, dalmation, goldenretriever
+ - unrecognized when selected bundles were beagle, husky, negatives
+ - unrecognized when selected bundles were beagle, goldenretriever, husky, negatives
+dogs/tests/5.jpg (goldenretriever)
+ - misclassified as beagle when selected bundles were beagle, dalmation, negatives
+ - unrecognized when selected bundles were dalmation, goldenretriever, negatives
+ - misclassified as beagle when selected bundles were beagle, dalmation, husky, negatives
+dogs/tests/6.jpg (husky)
+ - unrecognized when selected bundles were beagle, dalmation, husky, negatives
+insurance/tests/0.jpg (motorcycleaccident)
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives, vandalism
+insurance/tests/2.jpg (vandalism)
+ - unrecognized when selected bundles were brokenwinshield, flattire, vandalism
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives, vandalism
+insurance/tests/4.jpg (motorcycleaccident)
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives, vandalism
+insurance/tests/5.jpg (flattire)
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident
+ - unrecognized when selected bundles were brokenwinshield, flattire, negatives
+ - unrecognized when selected bundles were brokenwinshield, flattire, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were flattire, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, negatives, vandalism
+ - unrecognized when selected bundles were flattire, motorcycleaccident, negatives, vandalism
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives, vandalism
+moleskine/tests/0.jpg (journaling)
+ - unrecognized when selected bundles were journaling, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook, portrait
+moleskine/tests/1.jpg (false)
+ - misclassified as landscape when selected bundles were journaling, landscape, notebook
+ - misclassified as landscape when selected bundles were landscape, notebook, portrait
+ - misclassified as landscape when selected bundles were journaling, landscape, notebook, portrait
+moleskine/tests/10.jpg (landscape)
+ - misclassified as notebook when selected bundles were journaling, negative, notebook
+ - unrecognized when selected bundles were journaling, landscape, negative, portrait
+ - misclassified as notebook when selected bundles were journaling, negative, notebook, portrait
+ - unrecognized when selected bundles were landscape, negative, notebook, portrait
+moleskine/tests/11.jpg (false)
+ - misclassified as landscape when selected bundles were journaling, landscape, negative
+ - misclassified as landscape when selected bundles were landscape, negative, notebook
+ - misclassified as landscape when selected bundles were journaling, landscape, negative, notebook
+ - misclassified as portrait when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as portrait when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/12.jpg (portrait)
+ - unrecognized when selected bundles were journaling, negative, portrait
+ - unrecognized when selected bundles were journaling, notebook, portrait
+ - unrecognized when selected bundles were landscape, negative, portrait
+ - unrecognized when selected bundles were journaling, landscape, negative, portrait
+ - unrecognized when selected bundles were landscape, negative, notebook, portrait
+moleskine/tests/13.jpg (false)
+ - misclassified as portrait when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as portrait when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/14.jpg (portrait)
+ - misclassified as notebook when selected bundles were journaling, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - unrecognized when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+ - misclassified as notebook, portrait when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/15.jpg (portrait)
+ - unrecognized when selected bundles were journaling, landscape, portrait
+moleskine/tests/17.jpg (false)
+ - misclassified as journaling when selected bundles were journaling, landscape, portrait
+ - misclassified as journaling when selected bundles were journaling, landscape, notebook, portrait
+moleskine/tests/18.jpg (landscape)
+ - unrecognized when selected bundles were journaling, landscape, negative
+ - unrecognized when selected bundles were journaling, landscape, portrait
+ - misclassified as portrait when selected bundles were journaling, negative, notebook, portrait
+moleskine/tests/2.jpg (landscape)
+ - unrecognized when selected bundles were journaling, landscape, notebook
+moleskine/tests/4.jpg (false)
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+moleskine/tests/5.jpg (landscape)
+ - unrecognized when selected bundles were journaling, landscape, notebook
+ - unrecognized when selected bundles were journaling, landscape, portrait
+ - misclassified as journaling when selected bundles were journaling, negative, notebook
+ - misclassified as journaling when selected bundles were journaling, negative, portrait
+ - unrecognized when selected bundles were landscape, notebook, portrait
+ - misclassified as journaling, landscape when selected bundles were journaling, landscape, negative, portrait
+ - misclassified as journaling when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as journaling, landscape when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/6.jpg (false)
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook
+ - misclassified as notebook when selected bundles were journaling, negative, notebook
+ - misclassified as notebook when selected bundles were journaling, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/7.jpg (journaling)
+ - unrecognized when selected bundles were journaling, landscape, negative
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook
+ - unrecognized when selected bundles were journaling, landscape, portrait
+ - unrecognized when selected bundles were journaling, negative, notebook
+ - unrecognized when selected bundles were journaling, negative, portrait
+ - misclassified as notebook when selected bundles were journaling, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook
+ - unrecognized when selected bundles were journaling, landscape, negative, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/8.jpg (journaling)
+ - unrecognized when selected bundles were journaling, landscape, negative
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook
+ - unrecognized when selected bundles were journaling, landscape, portrait
+ - unrecognized when selected bundles were journaling, negative, notebook
+ - unrecognized when selected bundles were journaling, negative, portrait
+ - misclassified as notebook when selected bundles were journaling, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, negative, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, negative, notebook, portrait
+moleskine/tests/9.jpg (journaling)
+ - unrecognized when selected bundles were journaling, landscape, notebook
+ - unrecognized when selected bundles were journaling, landscape, portrait
+ - unrecognized when selected bundles were journaling, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, negative, notebook
+ - misclassified as notebook when selected bundles were landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were journaling, landscape, notebook, portrait
+ - misclassified as notebook when selected bundles were landscape, negative, notebook, portrait
+omniearth/tests/0.jpg (baseball)
+ - unrecognized when selected bundles were baseball, cars, golf
+omniearth/tests/1.jpg (baseball)
+ - unrecognized when selected bundles were baseball, golf, tennis
+omniearth/tests/10.jpg (golf)
+ - unrecognized when selected bundles were baseball, cars, golf
+ - unrecognized when selected bundles were baseball, cars, golf, tennis
+omniearth/tests/12.jpg (golf)
+ - unrecognized when selected bundles were baseball, cars, golf
+ - unrecognized when selected bundles were baseball, cars, golf, tennis
+omniearth/tests/13.jpg (golf)
+ - unrecognized when selected bundles were baseball, cars, golf, tennis
+omniearth/tests/14.jpg (tennis)
+ - unrecognized when selected bundles were baseball, cars, tennis
+ - unrecognized when selected bundles were baseball, cars, golf, tennis
+omniearth/tests/17.jpg (cars)
+ - misclassified as tennis when selected bundles were baseball, golf, tennis
+ - unrecognized when selected bundles were cars, golf, tennis
+omniearth/tests/2.jpg (cars)
+ - misclassified as tennis when selected bundles were baseball, golf, tennis
+ - unrecognized when selected bundles were cars, golf, tennis
+omniearth/tests/3.jpg (false)
+ - misclassified as cars when selected bundles were baseball, cars, golf
+ - misclassified as cars when selected bundles were baseball, cars, tennis
+ - misclassified as cars when selected bundles were cars, golf, tennis
+ - misclassified as cars when selected bundles were baseball, cars, golf, tennis
+omniearth/tests/4.jpg (tennis)
+ - unrecognized when selected bundles were baseball, golf, tennis
+omniearth/tests/5.jpg (golf)
+ - misclassified as baseball when selected bundles were baseball, cars, tennis
+ - unrecognized when selected bundles were baseball, golf, tennis
+omniearth/tests/7.jpg (cars)
+ - unrecognized when selected bundles were cars, golf, tennis
+omniearth/tests/8.jpg (golf)
+ - unrecognized when selected bundles were baseball, golf, tennis
+ - unrecognized when selected bundles were cars, golf, tennis
+omniearth/tests/9.jpg (golf)
+ - unrecognized when selected bundles were cars, golf, tennis

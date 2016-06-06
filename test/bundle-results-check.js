@@ -23,17 +23,17 @@ var testImages = {
     // this maps to public/images/bundles/dogs/test/{index}.jpg
   dogs: [
     'husky',
-    'negatives',
+    false,
     'dalmation',
-    'negatives',
+    false,
     'beagle',
     'goldenretriever',
     'husky' // same as 0 except with wrong proportions
   ],
   fruits: [
     'peach',
-    'negatives',
-    'negatives',
+    false,
+    false,
     'apple',
     'grapes',
     'banana',
@@ -42,9 +42,9 @@ var testImages = {
   ],
   insurance: [
     'motorcycleaccident',
-    'negatives',
+    false,
     'vandalism',
-    'negatives',
+    false,
     'motorcycleaccident',
     'flattire',
     'vandalism',
@@ -64,30 +64,30 @@ var testImages = {
         // sufficient to do that reliably
 
     'journaling', // watson incorrectly classifies this one - sometimes it's both jouraling and notebook, other times it's neither
-    'negatives',
+    false,
     'landscape',
     'landscape',
-    'negatives',
+    false,
     'landscape',
-    'negatives',
+    false,
     'journaling',
     'journaling', // ?
     'journaling',
     'landscape', // 10.jpg
-    'negatives',
+    false,
     'portrait',
-    'negatives',
+    false,
     'portrait',
     'portrait', // 15.jpg
     null,
-    'negatives',
+    false,
     'landscape'
   ],
   omniearth: [
     'baseball',
     'baseball',
     'cars',
-    'negatives', // I think this might actually be a car, but I'm honestly not sure
+    false, // I think this might actually be a car, but I'm honestly not sure
     'tennis',
     'golf', // 5.jpg
     'cars',
@@ -153,7 +153,7 @@ function classifierDone(id, next) {
 }
 
 // set up a queue to handle each permutation with CONCURRENCY parallel workers
-var CONCURRENCY = 5;
+var CONCURRENCY = 10;
 console.log('Running test images against %s classifier permutations with concurrency %s', permutations.length, CONCURRENCY);
 async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
 
