@@ -33,6 +33,7 @@ var testImages = {
   fruits: [
     'peach',
     'negatives',
+    'negatives',
     'apple',
     'grapes',
     'banana',
