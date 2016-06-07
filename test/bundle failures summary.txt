@@ -9,7 +9,7 @@ dogs/tests/2.jpg (dalmation)
  - misclassified as beagle when selected bundles were beagle, goldenretriever, husky, negatives
 dogs/tests/4.jpg (beagle)
  - unrecognized when selected bundles were beagle, dalmation, goldenretriever
- - unrecognized when selected bundles were beagle, husky, negatives
+ - unrecognized when selected bundles were beagle, husky, negatives -- was classified correctly during manual testing (?)
  - unrecognized when selected bundles were beagle, goldenretriever, husky, negatives
 dogs/tests/5.jpg (goldenretriever)
  - misclassified as beagle when selected bundles were beagle, dalmation, negatives
@@ -18,7 +18,7 @@ dogs/tests/5.jpg (goldenretriever)
 dogs/tests/6.jpg (husky)
  - unrecognized when selected bundles were beagle, dalmation, husky, negatives
 insurance/tests/0.jpg (motorcycleaccident)
- - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident -- was classified correctly during manual testing (?)
  - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives
  - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, vandalism
  - unrecognized when selected bundles were flattire, motorcycleaccident, negatives
@@ -40,7 +40,7 @@ insurance/tests/2.jpg (vandalism)
  - unrecognized when selected bundles were flattire, motorcycleaccident, negatives, vandalism
  - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident, negatives, vandalism
 insurance/tests/4.jpg (motorcycleaccident)
- - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident
+ - unrecognized when selected bundles were brokenwinshield, flattire, motorcycleaccident -- was classified correctly during manual testing (?)
  - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, negatives
  - unrecognized when selected bundles were brokenwinshield, motorcycleaccident, vandalism
  - unrecognized when selected bundles were flattire, motorcycleaccident, negatives
