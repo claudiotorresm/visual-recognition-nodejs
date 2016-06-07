@@ -156,7 +156,6 @@ function classifierDone(id, next) {
 var CONCURRENCY = 10;
 console.log('Running test images against %s classifier permutations with concurrency %s', permutations.length, CONCURRENCY);
 async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
-
   // don't pass errors back to async, just log them (we want
   function cleanup(err) {
     if (err) {
@@ -212,17 +211,32 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
         return cleanup(err);
       }
 
-      async.eachLimit(perm.tests, CONCURRENCY, function(test, next) {
+      console.log('classifier ready')
+
+      perm.tests.forEach(function(test) {
+        test.errors = [];
+        test.iterations = 0;
+        test.results = [];
+      });
+
+      var runTest = async.retryable(3, function(test, next) {
+        test.iterations++;
+
         visualRecognition.classify({
           classifier_ids: [classifier.classifier_id],
           images_file: fs.createReadStream(path.join(basedir, perm.category, 'test', test.filename))
         }, function(err, res) {
           if (err) {
-            test.error = err.message || err;
+            test.errors.push(err.message || err);
             return next(err);
           }
 
-          test.results = res;
+          test.results.push(res);
+
+          if (res.images_processed !== 1) {
+            test.errors.push('Incorrect number of images processed');
+            return next(err);
+          }
 
           var expected = (test.class && perm.classes.indexOf(test.class) > -1) ? test.class : false;
 
@@ -237,7 +251,7 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
 
           test.success = success;
 
-          console.log('%s (%s: %s) Test image %s should have class %s', success ? '✓' : 'x', perm.category, perm.classes, test.filename, test.class );
+          console.log('%s (%s: %s) Test image %s should have class %s', success ? '✓' : 'x', perm.category, perm.classes, test.filename, test.class);
           if (!success) {
             test.actual = actual;
             console.log(actual.length  ? actual : '[no classifications returned]');
@@ -245,9 +259,12 @@ async.eachLimit(permutations, CONCURRENCY, function(perm, done) {
           test.complete = true;
           next();
         });
-      }, cleanup);
-
     });
+
+    async.eachLimit(perm.tests, CONCURRENCY, function(test, next) {
+        runTest(test, next.bind(null, null)); // no errors returned so that subsequent tests still run
+      });
+    }, cleanup);
 
   });
 }, function(err) {
