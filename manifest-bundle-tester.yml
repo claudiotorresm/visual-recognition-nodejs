@@ -1,6 +1,6 @@
 applications:
 - name: vr-bundle-test
-  command: node test/bundle-test-server.js
+  command: node test/bundle-combinations/server.js
   path: .
   memory: 512M
   env:

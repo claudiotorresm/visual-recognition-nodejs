@@ -11,7 +11,7 @@ module.exports = function processResults(results) {
   var testSets = results.map(function(r) { return r.tests; });
   var tests = l.flatten(testSets);
   tests = l.filter(tests, 'complete'); // filters out tests that failed due to e.g. network failure
-  tests = l.filter(tests, function(t) { return t.category != 'fruits'; });
+  tests = l.filter(tests, function(t) { return t.category !== 'fruits'; });
 
   tests.forEach(function(t) { if (t.success) { delete t.results; } } );
 
