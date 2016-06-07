@@ -1,7 +1,7 @@
 Note: these are preliminary results that still need to be validated
 
 dogs/tests/0.jpg (husky)
- - unrecognized when selected bundles were beagle, husky, negatives
+ - unrecognized when selected bundles were beagle, husky, negatives -- was classified correctly during manual testing (?)
  - unrecognized when selected bundles were beagle, dalmation, goldenretriever, husky
  - unrecognized when selected bundles were dalmation, goldenretriever, husky, negatives
 dogs/tests/2.jpg (dalmation)
