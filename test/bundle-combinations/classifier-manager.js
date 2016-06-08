@@ -16,14 +16,21 @@ var visualRecognition = watson.visual_recognition({
 
 var cacheFile = path.join(__dirname, 'classifiers.json'); // where to cache results
 var POLLING_DELAY = 2000; // ms: 2000 == 2 seconds - delay between checks when waiting on classifier to finish training
-var basedir = path.join(__dirname, '../public/images/bundles'); // where are the folders with .zip files
+var basedir = path.join(__dirname, '../../public/images/bundles'); // where are the folders with .zip files
 var MIN_TAGS = 3; // minimum number of classifications
 
 // pols the service to determine when a given classifier is done training
-function classifierDone(id, next) {
-  visualRecognition.getClassifier({classifier_id: id}, function(err, res) {
+function classifierDone(classifier, next) {
+  visualRecognition.getClassifier(classifier, function(err, res) {
     if (err) {
-      return next(err);
+      if (err.code === 404) {
+        // the service has a bug where fetching classifier details
+        // shortly after creation sometimes results a 404
+        console.log('404 error for %s, retrying in %sms', classifier.classifier_id, POLLING_DELAY);
+        res = {status: 'service bug'};
+      } else {
+        return next(err);
+      }
     }
 
     if (res.status === 'ready') {
@@ -31,7 +38,7 @@ function classifierDone(id, next) {
     } else if (res.status === 'failed') {
       return next(res, res);
     } else {
-      setTimeout(classifierDone.bind(null, id, next), POLLING_DELAY);
+      setTimeout(classifierDone.bind(null, classifier, next), POLLING_DELAY);
     }
   });
 }
@@ -59,12 +66,17 @@ function getAllPermutations() {
   }, []);
 }
 
-// creates all possible classifiers from the .zip files in hte basedir
-function createClassifiers(cb) {
-  var permutations = getAllPermutations();
+// creates all possible classifiers from the .zip files in the basedir
+function createClassifiers(permutations, cb) {
+  if (typeof permutations === 'function') {
+    cb = permutations;
+    permutations = getAllPermutations();
+  }
   // set up a queue to handle each permutation with CONCURRENCY parallel workers
   // return the details once it's finished training
   var CONCURRENCY = 10;
+  // first create all classifiers (uploading the .zips) in series,
+  // then wait for them to be complete in parallel
   async.mapLimit(permutations, CONCURRENCY, function(perm, done) {
     // create the classifier
     var classifierOptions = {
@@ -79,12 +91,15 @@ function createClassifiers(cb) {
         return done(err);
       }
       perm.classifier = classifier;
-
-      // wait until it's finished processing
-      // add a delay because it will sometimes 404 if called immediately after creating the classifier :(
-      setTimeout(classifierDone.bind(null, classifier.classifier_id, done), 5 * 1000);
+      done(null, classifier);
     });
-  }, cb);
+  }, function(err, classifiers) {
+    if (err) {
+      return cb(err);
+    }
+    // poll each classifier until it's ready
+    async.mapLimit(classifiers, CONCURRENCY, classifierDone, cb);
+  });
 }
 
 

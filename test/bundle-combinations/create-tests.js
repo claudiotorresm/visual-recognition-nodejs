@@ -100,7 +100,8 @@ var testImages = {
 };
 
 
-// rewrite test images to include
+
+// rewrite test images to include details
 testImages = _.mapValues(testImages, function(list, category) {
   return list.map(function(tag, index) {
     if (tag === null) {
@@ -109,35 +110,48 @@ testImages = _.mapValues(testImages, function(list, category) {
     return {
       'class': tag,
       file: path.join(category, 'test', index + '.jpg'),
-      live: category != 'fruits' && index < 6
-  };
+      live: category !== 'fruits' && index < 6
+    };
   }).filter(function(test) {
     return test; // filter out the nulls (we need them up until now to keep the indexes lined up with the filenames)
   });
 });
 
-
-var classifiers = require('./classifiers.json').map(function(c) {
-  return {
-    classifier_id: c.classifier_id,
-    category: c.name.split('_')[0],
-    classes: _.map(c.classes, 'class') // converts it from [{class:'foo'},...] to just ['foo',...]
-  };
-});
-
-var tests = _.flatten(classifiers.map(function(c) {
-  return _.filter(testImages[c.category].map(function(image) {
+function createTests(classifiers) {
+  var classifiers = classifiers.map(function(c) {
     return {
       classifier_id: c.classifier_id,
-      class: image.class,
-      // false expected means no class should be detected
-      expected: (image.class && c.classes.indexOf(image.class) > -1) ? image.class : false,
-      file: image.file,
-      live: image.live
+      category: c.name.split('_')[0],
+      classes: _.map(c.classes, 'class') // converts it from [{class:'foo'},...] to just ['foo',...]
     };
+  });
+
+  var tests = _.flatten(classifiers.map(function(c) {
+    return _.filter(testImages[c.category].map(function(image) {
+      return {
+        classifier_id: c.classifier_id,
+        class: image.class,
+        // false expected means no class should be detected
+        expected: (image.class && c.classes.indexOf(image.class) > -1) ? image.class : false,
+        file: image.file,
+        live: image.live
+      };
+    }));
   }));
-}));
 
-fs.writeFileSync(path.join(__dirname, 'tests.json'), JSON.stringify(tests, null, 2));
+  return tests;
+}
 
-console.log('%s tests written to tests.json', tests.length);
+
+module.exports = createTests;
+
+
+if (!module.parent) {
+  var classifiers = require('./more-classifiers.json');
+
+  var tests = createTests(classifiers);
+
+  fs.writeFileSync(path.join(__dirname, 'tests.json'), JSON.stringify(tests, null, 2));
+
+  console.log('%s tests written to tests.json', tests.length);
+}

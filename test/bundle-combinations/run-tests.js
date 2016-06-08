@@ -16,12 +16,11 @@ var visualRecognition = watson.visual_recognition({
 
 var bundlesDir = path.join(__dirname, '../../public/images/bundles');
 
-var tests = require('./tests.json');
+exports.tests = require('./tests.json');
 
 // set up a queue to handle each permutation with CONCURRENCY parallel workers
 var CONCURRENCY = 3;
 
-console.log('Running %s tests at concurrency %s', tests.length, CONCURRENCY);
 
 function statusLine(test) {
   var name;
@@ -42,7 +41,12 @@ function statusLine(test) {
   }
 }
 
-function run(cb) {
+function run(tests, cb) {
+  if (typeof tests === 'function') {
+    cb = tests;
+    tests = exports.tests;
+  }
+  console.log('Running %s tests at concurrency %s', tests.length, CONCURRENCY);
   async.eachLimit(tests, CONCURRENCY, function(test, next) {
     visualRecognition.classify({
       classifier_ids: [test.classifier_id],
@@ -66,18 +70,17 @@ function run(cb) {
 
       next();
     });
-  }, cb);
+  }, function(err) {
+    cb(err, tests);
+  });
 }
 
 
 exports.statusLine = statusLine;
-exports.tests = tests;
 exports.results = function(t) {
-  return (t || tests).map(statusLine).join('\n');
+  return (t || exports.tests).map(statusLine).join('\n');
 };
 exports.run = run;
-
-
 
 
 if (!module.parent) {
@@ -88,7 +91,7 @@ if (!module.parent) {
       process.exit(1);
     }
     console.log('done');
-    //fs.writeFileSync('test-results.json', JSON.stringify(classifiers, null, 2));
-    //console.log('%s classifiers created, details written to %s', classifiers.length, cacheFile);
+    // fs.writeFileSync('test-results.json', JSON.stringify(classifiers, null, 2));
+    // console.log('%s classifiers created, details written to %s', classifiers.length, cacheFile);
   });
 }

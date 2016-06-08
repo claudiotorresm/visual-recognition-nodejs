@@ -2,23 +2,50 @@
 
 var http = require('http');
 var express = require('express');
-// var classifierManager = require('./classifier-manager');
-// var processResults = require('./process bundle results');
+var classifierManager = require('./classifier-manager');
+var createTests = require('./create-tests');
+var runner = require('./run-tests');
+var orderTest = require('./order-test');
 var app = express();
 
-var runner = require('./run-tests');
-runner.run();
+var classifiers;
+var tests;
 
 app.get('/', function(req, res) {
-  res.send('<p>Current test results: <a href="/results">summary</a> or <a href="/json">raw JSON</a></p>');
+  res.send('<p><a href="/classifiers">Classifiers (JSON)</a></p><p>Current test results: <a href="/results">text</a> or <a href="/tests">JSON</a></p>');
 });
 
-app.get('/json', function(req, res) {
-  res.json(runner.tests);
+app.get('order-test', function(req, res) {
+  orderTest();
+  res.send('started');
+});
+
+app.get('/full-suite', function(req, res) {
+  console.log('creating classifiers');
+  classifierManager.createClassifiers(function(err, _classifiers) {
+    if (err) {
+      return console.log(err);
+    }
+    classifiers = _classifiers;
+    console.log('%s classifiers created', classifiers.length);
+    tests = createTests(classifiers);
+    console.log('about to run %s tests', tests.length);
+    runner.run(tests);
+  });
+
+  res.send('started');
+});
+
+app.get('/classifiers', function(req, res) {
+  res.json(classifiers);
+});
+
+app.get('/tests', function(req, res) {
+  res.json(tests);
 });
 
 app.get('/results', function(req, res) {
-  res.type('.txt').send(runner.results());
+  res.type('.txt').send(runner.results(tests));
 });
 
 app.get('/stored/results', function(req, res) {

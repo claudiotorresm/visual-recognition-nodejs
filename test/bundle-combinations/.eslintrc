@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-param-reassign": 0,
+    "no-multiple-empty-lines": 0,
+    "no-shadow": 0
+  }
+}
