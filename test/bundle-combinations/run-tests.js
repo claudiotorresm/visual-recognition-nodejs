@@ -19,7 +19,7 @@ var bundlesDir = path.join(__dirname, '../../public/images/bundles');
 var tests = require('./tests.json');
 
 // set up a queue to handle each permutation with CONCURRENCY parallel workers
-var CONCURRENCY = 10;
+var CONCURRENCY = 3;
 
 console.log('Running %s tests at concurrency %s', tests.length, CONCURRENCY);
 
