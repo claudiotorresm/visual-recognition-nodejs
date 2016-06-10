@@ -118,7 +118,7 @@ testImages = _.mapValues(testImages, function(list, category) {
 });
 
 function createTests(classifiers) {
-  var classifiers = classifiers.map(function(c) {
+  classifiers = classifiers.map(function(c) {
     return {
       classifier_id: c.classifier_id,
       category: c.name.split('_')[0],
@@ -147,7 +147,7 @@ module.exports = createTests;
 
 
 if (!module.parent) {
-  var classifiers = require('./more-classifiers.json');
+  var classifiers = require('./classifiers.json');
 
   var tests = createTests(classifiers);
 

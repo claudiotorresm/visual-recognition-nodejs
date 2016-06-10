@@ -58,7 +58,7 @@ function run(tests, cb) {
         test.actual = res.images[0].classifiers.length  ? res.images[0].classifiers[0].classes : [];
 
         if (test.expected) {
-          test.success = test.actual.length && test.actual[0].class === test.expected;
+          test.success = !!test.actual.length && test.actual[0].class === test.expected;
         } else {
           test.success = test.actual.length === 0;
         }

@@ -74,7 +74,7 @@ function createClassifiers(permutations, cb) {
   }
   // set up a queue to handle each permutation with CONCURRENCY parallel workers
   // return the details once it's finished training
-  var CONCURRENCY = 10;
+  var CONCURRENCY = 1;
   // first create all classifiers (uploading the .zips) in series,
   // then wait for them to be complete in parallel
   async.mapLimit(permutations, CONCURRENCY, function(perm, done) {
@@ -91,15 +91,22 @@ function createClassifiers(permutations, cb) {
         return done(err);
       }
       perm.classifier = classifier;
-      done(null, classifier);
+
+      // testing slowing things down to see if we get better results (creating large numbers of classifiers in parallel seems to create some that don't work properly)
+      // this creates one at a time, waits for it to be ready, then creates another before continuing
+      classifierDone(classifier, function(err, classifier) {
+        setTimeout(done.bind(null, err, classifier), 5 * 1000);
+      });
+      // done(null, classifier);
     });
-  }, function(err, classifiers) {
+  }, cb /* function(err, classifiers) {
     if (err) {
       return cb(err);
     }
+    CONCURRENCY = 10;
     // poll each classifier until it's ready
     async.mapLimit(classifiers, CONCURRENCY, classifierDone, cb);
-  });
+  }*/);
 }
 
 

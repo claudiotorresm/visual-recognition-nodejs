@@ -11,16 +11,7 @@ var app = express();
 var classifiers;
 var tests;
 
-app.get('/', function(req, res) {
-  res.send('<p><a href="/classifiers">Classifiers (JSON)</a></p><p>Current test results: <a href="/results">text</a> or <a href="/tests">JSON</a></p>');
-});
-
-app.get('order-test', function(req, res) {
-  orderTest();
-  res.send('started');
-});
-
-app.get('/full-suite', function(req, res) {
+function fullSuite() {
   console.log('creating classifiers');
   classifierManager.createClassifiers(function(err, _classifiers) {
     if (err) {
@@ -30,9 +21,30 @@ app.get('/full-suite', function(req, res) {
     console.log('%s classifiers created', classifiers.length);
     tests = createTests(classifiers);
     console.log('about to run %s tests', tests.length);
-    runner.run(tests);
+    runner.run(tests, function(err /* , tests*/) {
+      console.log('done', err);
+    });
   });
+}
 
+fullSuite();
+
+app.get('/', function(req, res) {
+  res.send('<p><a href="/classifiers">Classifiers (JSON)</a></p><p>Current test results: <a href="/results">text</a> or <a href="/tests">JSON</a></p>');
+});
+
+app.get('/order-test', function(req, res) {
+  orderTest();
+  res.send('started');
+});
+
+app.get('/full-order-test', function(req, res) {
+  orderTest();
+  res.send('started');
+});
+
+app.get('/full-suite', function(req, res) {
+  fullSuite();
   res.send('started');
 });
 

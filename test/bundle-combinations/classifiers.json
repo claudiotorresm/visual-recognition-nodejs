@@ -1,9 +1,9 @@
 [{
-  "classifier_id": "dogs_beagle_dalmation_goldenretriever_1002967666",
+  "classifier_id": "dogs_beagle_dalmation_goldenretriever_442288069",
   "name": "dogs_beagle_dalmation_goldenretriever",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:18.489Z",
+  "created": "2016-06-07T18:43:15.421Z",
   "classes": [{
     "class": "goldenretriever"
   }, {
@@ -12,11 +12,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_husky_1387621869",
+  "classifier_id": "dogs_beagle_dalmation_husky_2092005671",
   "name": "dogs_beagle_dalmation_husky",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:18.408Z",
+  "created": "2016-06-07T18:43:15.187Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -25,22 +25,22 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_negatives_565223896",
+  "classifier_id": "dogs_beagle_dalmation_negatives_1613270161",
   "name": "dogs_beagle_dalmation_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:20.355Z",
+  "created": "2016-06-07T18:43:15.502Z",
   "classes": [{
     "class": "dalmation"
   }, {
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_goldenretriever_husky_1538509122",
+  "classifier_id": "dogs_beagle_goldenretriever_husky_1003876229",
   "name": "dogs_beagle_goldenretriever_husky",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:20.313Z",
+  "created": "2016-06-07T18:43:16.860Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -49,33 +49,33 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_goldenretriever_negatives_32402203",
+  "classifier_id": "dogs_beagle_goldenretriever_negatives_922945041",
   "name": "dogs_beagle_goldenretriever_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:21.023Z",
+  "created": "2016-06-07T18:43:16.928Z",
   "classes": [{
     "class": "goldenretriever"
   }, {
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_husky_negatives_707077595",
+  "classifier_id": "dogs_beagle_husky_negatives_940407813",
   "name": "dogs_beagle_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:18.312Z",
+  "created": "2016-06-07T18:43:17.405Z",
   "classes": [{
     "class": "husky"
   }, {
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_dalmation_goldenretriever_husky_1845689523",
+  "classifier_id": "dogs_dalmation_goldenretriever_husky_1182792512",
   "name": "dogs_dalmation_goldenretriever_husky",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:25.674Z",
+  "created": "2016-06-07T18:43:15.263Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -84,44 +84,44 @@
     "class": "dalmation"
   }]
 }, {
-  "classifier_id": "dogs_dalmation_goldenretriever_negatives_884068511",
+  "classifier_id": "dogs_dalmation_goldenretriever_negatives_1953037466",
   "name": "dogs_dalmation_goldenretriever_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:18.190Z",
+  "created": "2016-06-07T18:43:19.097Z",
   "classes": [{
     "class": "goldenretriever"
   }, {
     "class": "dalmation"
   }]
 }, {
-  "classifier_id": "dogs_dalmation_husky_negatives_1371375533",
+  "classifier_id": "dogs_dalmation_husky_negatives_1147906166",
   "name": "dogs_dalmation_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:19.674Z",
+  "created": "2016-06-07T18:43:16.731Z",
   "classes": [{
     "class": "husky"
   }, {
     "class": "dalmation"
   }]
 }, {
-  "classifier_id": "dogs_goldenretriever_husky_negatives_1252842601",
+  "classifier_id": "dogs_goldenretriever_husky_negatives_459782383",
   "name": "dogs_goldenretriever_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:20.699Z",
+  "created": "2016-06-07T18:43:15.370Z",
   "classes": [{
     "class": "husky"
   }, {
     "class": "goldenretriever"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_goldenretriever_husky_843571233",
+  "classifier_id": "dogs_beagle_dalmation_goldenretriever_husky_44637656",
   "name": "dogs_beagle_dalmation_goldenretriever_husky",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:22.561Z",
+  "created": "2016-06-07T18:43:25.657Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -132,11 +132,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_goldenretriever_negatives_1460849124",
+  "classifier_id": "dogs_beagle_dalmation_goldenretriever_negatives_1089129889",
   "name": "dogs_beagle_dalmation_goldenretriever_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:21.698Z",
+  "created": "2016-06-07T18:43:23.888Z",
   "classes": [{
     "class": "goldenretriever"
   }, {
@@ -145,11 +145,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_husky_negatives_1379871106",
+  "classifier_id": "dogs_beagle_dalmation_husky_negatives_1040127560",
   "name": "dogs_beagle_dalmation_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:21.838Z",
+  "created": "2016-06-07T18:43:26.771Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -158,11 +158,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_beagle_goldenretriever_husky_negatives_2146970830",
+  "classifier_id": "dogs_beagle_goldenretriever_husky_negatives_90626792",
   "name": "dogs_beagle_goldenretriever_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:22.990Z",
+  "created": "2016-06-07T18:43:24.956Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -171,11 +171,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "dogs_dalmation_goldenretriever_husky_negatives_1292473368",
+  "classifier_id": "dogs_dalmation_goldenretriever_husky_negatives_725289313",
   "name": "dogs_dalmation_goldenretriever_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:27.321Z",
+  "created": "2016-06-07T18:43:28.273Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -184,11 +184,11 @@
     "class": "dalmation"
   }]
 }, {
-  "classifier_id": "dogs_beagle_dalmation_goldenretriever_husky_negatives_1519448889",
+  "classifier_id": "dogs_beagle_dalmation_goldenretriever_husky_negatives_240954678",
   "name": "dogs_beagle_dalmation_goldenretriever_husky_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:23.817Z",
+  "created": "2016-06-07T18:43:28.485Z",
   "classes": [{
     "class": "husky"
   }, {
@@ -199,11 +199,11 @@
     "class": "beagle"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_552565145",
+  "classifier_id": "fruits_apple_banana_grapes_190281933",
   "name": "fruits_apple_banana_grapes",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:24.945Z",
+  "created": "2016-06-07T18:43:27.265Z",
   "classes": [{
     "class": "grapes"
   }, {
@@ -212,22 +212,22 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_473283477",
+  "classifier_id": "fruits_apple_banana_nonfruits_1678979416",
   "name": "fruits_apple_banana_non-fruits",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:25.365Z",
+  "created": "2016-06-07T18:43:26.676Z",
   "classes": [{
     "class": "banana"
   }, {
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_orange_803689333",
+  "classifier_id": "fruits_apple_banana_orange_338263304",
   "name": "fruits_apple_banana_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:26.049Z",
+  "created": "2016-06-07T18:43:25.333Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -236,11 +236,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_peach_1444053437",
+  "classifier_id": "fruits_apple_banana_peach_1444557882",
   "name": "fruits_apple_banana_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:26.836Z",
+  "created": "2016-06-07T18:43:29.161Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -249,11 +249,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_pear_1516339756",
+  "classifier_id": "fruits_apple_banana_pear_18046651",
   "name": "fruits_apple_banana_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:23.830Z",
+  "created": "2016-06-07T18:43:33.262Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -262,22 +262,22 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_1709664819",
+  "classifier_id": "fruits_apple_grapes_nonfruits_1331934598",
   "name": "fruits_apple_grapes_non-fruits",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:25.153Z",
+  "created": "2016-06-07T18:43:37.704Z",
   "classes": [{
     "class": "grapes"
   }, {
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_orange_1839194222",
+  "classifier_id": "fruits_apple_grapes_orange_1628465164",
   "name": "fruits_apple_grapes_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:26.281Z",
+  "created": "2016-06-07T18:43:36.340Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -286,11 +286,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_peach_1130052368",
+  "classifier_id": "fruits_apple_grapes_peach_1410676901",
   "name": "fruits_apple_grapes_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:26.215Z",
+  "created": "2016-06-07T18:43:37.492Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -299,11 +299,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_pear_1842785263",
+  "classifier_id": "fruits_apple_grapes_pear_1727537914",
   "name": "fruits_apple_grapes_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:26.638Z",
+  "created": "2016-06-07T18:43:35.256Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -312,44 +312,44 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_orange_99404219",
+  "classifier_id": "fruits_apple_nonfruits_orange_1252921908",
   "name": "fruits_apple_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:28.905Z",
+  "created": "2016-06-07T18:43:39.011Z",
   "classes": [{
     "class": "orange"
   }, {
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_peach_1871853708",
+  "classifier_id": "fruits_apple_nonfruits_peach_505060500",
   "name": "fruits_apple_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:27.327Z",
+  "created": "2016-06-07T18:43:36.480Z",
   "classes": [{
     "class": "peach"
   }, {
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_pear_686142926",
+  "classifier_id": "fruits_apple_nonfruits_pear_100183683",
   "name": "fruits_apple_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:30.653Z",
+  "created": "2016-06-07T18:43:37.332Z",
   "classes": [{
     "class": "pear"
   }, {
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_orange_peach_301690104",
+  "classifier_id": "fruits_apple_orange_peach_1679756755",
   "name": "fruits_apple_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:28.020Z",
+  "created": "2016-06-07T18:43:39.071Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -358,11 +358,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_orange_pear_1254911542",
+  "classifier_id": "fruits_apple_orange_pear_280221648",
   "name": "fruits_apple_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:30.655Z",
+  "created": "2016-06-07T18:43:41.206Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -371,11 +371,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_peach_pear_1381837885",
+  "classifier_id": "fruits_apple_peach_pear_1321702441",
   "name": "fruits_apple_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:29.399Z",
+  "created": "2016-06-07T18:43:43.043Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -384,22 +384,22 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_937716757",
+  "classifier_id": "fruits_banana_grapes_nonfruits_1634945061",
   "name": "fruits_banana_grapes_non-fruits",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:31.432Z",
+  "created": "2016-06-07T18:43:45.316Z",
   "classes": [{
     "class": "grapes"
   }, {
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_orange_1164277026",
+  "classifier_id": "fruits_banana_grapes_orange_659205716",
   "name": "fruits_banana_grapes_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:30.216Z",
+  "created": "2016-06-07T18:43:46.101Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -408,11 +408,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_peach_629023775",
+  "classifier_id": "fruits_banana_grapes_peach_1983799490",
   "name": "fruits_banana_grapes_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:29.986Z",
+  "created": "2016-06-07T18:43:47.042Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -421,11 +421,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_pear_1613114598",
+  "classifier_id": "fruits_banana_grapes_pear_1196208375",
   "name": "fruits_banana_grapes_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:29.680Z",
+  "created": "2016-06-07T18:43:47.865Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -434,44 +434,44 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_orange_1581686201",
+  "classifier_id": "fruits_banana_nonfruits_orange_781023911",
   "name": "fruits_banana_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:32.123Z",
+  "created": "2016-06-07T18:43:45.143Z",
   "classes": [{
     "class": "orange"
   }, {
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_peach_617245519",
+  "classifier_id": "fruits_banana_nonfruits_peach_744039",
   "name": "fruits_banana_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:30.259Z",
+  "created": "2016-06-07T18:43:46.503Z",
   "classes": [{
     "class": "peach"
   }, {
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_pear_1073120598",
+  "classifier_id": "fruits_banana_nonfruits_pear_14648641",
   "name": "fruits_banana_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:31.293Z",
+  "created": "2016-06-07T18:43:47.075Z",
   "classes": [{
     "class": "pear"
   }, {
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_orange_peach_1807733154",
+  "classifier_id": "fruits_banana_orange_peach_1844114530",
   "name": "fruits_banana_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:34.616Z",
+  "created": "2016-06-07T18:43:49.429Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -480,11 +480,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_orange_pear_1907922646",
+  "classifier_id": "fruits_banana_orange_pear_1437645561",
   "name": "fruits_banana_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:33.733Z",
+  "created": "2016-06-07T18:43:48.525Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -493,11 +493,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_peach_pear_2070837141",
+  "classifier_id": "fruits_banana_peach_pear_395889074",
   "name": "fruits_banana_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:31.923Z",
+  "created": "2016-06-07T18:43:52.199Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -506,44 +506,44 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_orange_1080931740",
+  "classifier_id": "fruits_grapes_nonfruits_orange_2047735321",
   "name": "fruits_grapes_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:35.684Z",
+  "created": "2016-06-07T18:43:59.475Z",
   "classes": [{
     "class": "orange"
   }, {
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_peach_1722758633",
+  "classifier_id": "fruits_grapes_nonfruits_peach_1677114850",
   "name": "fruits_grapes_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:34.904Z",
+  "created": "2016-06-07T18:43:53.415Z",
   "classes": [{
     "class": "peach"
   }, {
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_pear_974886050",
+  "classifier_id": "fruits_grapes_nonfruits_pear_1055473640",
   "name": "fruits_grapes_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:33.001Z",
+  "created": "2016-06-07T18:43:55.709Z",
   "classes": [{
     "class": "pear"
   }, {
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_orange_peach_1655648174",
+  "classifier_id": "fruits_grapes_orange_peach_2147010043",
   "name": "fruits_grapes_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:34.006Z",
+  "created": "2016-06-07T18:43:55.946Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -552,11 +552,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_orange_pear_718662517",
+  "classifier_id": "fruits_grapes_orange_pear_1953717151",
   "name": "fruits_grapes_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:34.071Z",
+  "created": "2016-06-07T18:44:02.154Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -565,11 +565,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_peach_pear_1504381083",
+  "classifier_id": "fruits_grapes_peach_pear_2011308770",
   "name": "fruits_grapes_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:33.767Z",
+  "created": "2016-06-07T18:43:54.624Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -578,44 +578,44 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_nonfruits_orange_peach_1771990779",
+  "classifier_id": "fruits_nonfruits_orange_peach_1568387032",
   "name": "fruits_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:36.290Z",
+  "created": "2016-06-07T18:43:58.255Z",
   "classes": [{
     "class": "peach"
   }, {
     "class": "orange"
   }]
 }, {
-  "classifier_id": "fruits_nonfruits_orange_pear_1118847964",
+  "classifier_id": "fruits_nonfruits_orange_pear_463639032",
   "name": "fruits_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:37.276Z",
+  "created": "2016-06-07T18:43:58.241Z",
   "classes": [{
     "class": "pear"
   }, {
     "class": "orange"
   }]
 }, {
-  "classifier_id": "fruits_nonfruits_peach_pear_511021832",
+  "classifier_id": "fruits_nonfruits_peach_pear_1067246905",
   "name": "fruits_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:35.143Z",
+  "created": "2016-06-07T18:43:57.589Z",
   "classes": [{
     "class": "pear"
   }, {
     "class": "peach"
   }]
 }, {
-  "classifier_id": "fruits_orange_peach_pear_1587404929",
+  "classifier_id": "fruits_orange_peach_pear_1193717345",
   "name": "fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:37.980Z",
+  "created": "2016-06-07T18:44:01.272Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -624,11 +624,11 @@
     "class": "orange"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_1003088755",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_78303942",
   "name": "fruits_apple_banana_grapes_non-fruits",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:37.624Z",
+  "created": "2016-06-07T18:44:04.728Z",
   "classes": [{
     "class": "grapes"
   }, {
@@ -637,11 +637,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_orange_1751378290",
+  "classifier_id": "fruits_apple_banana_grapes_orange_448363665",
   "name": "fruits_apple_banana_grapes_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:38.717Z",
+  "created": "2016-06-07T18:44:03.686Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -652,11 +652,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_peach_1419392824",
+  "classifier_id": "fruits_apple_banana_grapes_peach_88438588",
   "name": "fruits_apple_banana_grapes_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:41.168Z",
+  "created": "2016-06-07T18:44:06.646Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -667,11 +667,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_pear_1159156507",
+  "classifier_id": "fruits_apple_banana_grapes_pear_548277772",
   "name": "fruits_apple_banana_grapes_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:43.301Z",
+  "created": "2016-06-07T18:44:04.231Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -682,11 +682,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_orange_1582040468",
+  "classifier_id": "fruits_apple_banana_nonfruits_orange_1070461576",
   "name": "fruits_apple_banana_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:39.797Z",
+  "created": "2016-06-07T18:44:06.270Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -695,11 +695,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_peach_751597035",
+  "classifier_id": "fruits_apple_banana_nonfruits_peach_1680418654",
   "name": "fruits_apple_banana_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:43.810Z",
+  "created": "2016-06-07T18:44:07.862Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -708,11 +708,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_pear_1302618794",
+  "classifier_id": "fruits_apple_banana_nonfruits_pear_757785923",
   "name": "fruits_apple_banana_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:44.394Z",
+  "created": "2016-06-07T18:44:06.122Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -721,11 +721,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_orange_peach_1863606972",
+  "classifier_id": "fruits_apple_banana_orange_peach_1597552283",
   "name": "fruits_apple_banana_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:41.282Z",
+  "created": "2016-06-07T18:44:10.829Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -736,11 +736,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_orange_pear_145512486",
+  "classifier_id": "fruits_apple_banana_orange_pear_1667486153",
   "name": "fruits_apple_banana_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:39.551Z",
+  "created": "2016-06-07T18:44:09.827Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -751,11 +751,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_peach_pear_117363558",
+  "classifier_id": "fruits_apple_banana_peach_pear_999781306",
   "name": "fruits_apple_banana_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:42.683Z",
+  "created": "2016-06-07T18:44:09.715Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -766,11 +766,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_orange_1014654412",
+  "classifier_id": "fruits_apple_grapes_nonfruits_orange_857641606",
   "name": "fruits_apple_grapes_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:40.898Z",
+  "created": "2016-06-07T18:44:13.371Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -779,11 +779,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_peach_1314724996",
+  "classifier_id": "fruits_apple_grapes_nonfruits_peach_662467710",
   "name": "fruits_apple_grapes_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:47.526Z",
+  "created": "2016-06-07T18:44:16.140Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -792,11 +792,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_pear_367922144",
+  "classifier_id": "fruits_apple_grapes_nonfruits_pear_1102559718",
   "name": "fruits_apple_grapes_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:44.367Z",
+  "created": "2016-06-07T18:44:14.857Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -805,11 +805,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_orange_peach_642927042",
+  "classifier_id": "fruits_apple_grapes_orange_peach_1087914376",
   "name": "fruits_apple_grapes_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:42.974Z",
+  "created": "2016-06-07T18:44:18.494Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -820,11 +820,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_orange_pear_1892057742",
+  "classifier_id": "fruits_apple_grapes_orange_pear_127231531",
   "name": "fruits_apple_grapes_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:43.954Z",
+  "created": "2016-06-07T18:44:18.898Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -835,11 +835,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_peach_pear_240201210",
+  "classifier_id": "fruits_apple_grapes_peach_pear_42592988",
   "name": "fruits_apple_grapes_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:49.977Z",
+  "created": "2016-06-07T18:44:19.444Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -850,11 +850,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_orange_peach_568781728",
+  "classifier_id": "fruits_apple_nonfruits_orange_peach_235719052",
   "name": "fruits_apple_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:44.790Z",
+  "created": "2016-06-07T18:44:18.311Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -863,11 +863,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_orange_pear_704432905",
+  "classifier_id": "fruits_apple_nonfruits_orange_pear_601704386",
   "name": "fruits_apple_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:45.165Z",
+  "created": "2016-06-07T18:44:20.196Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -876,11 +876,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_peach_pear_1974941476",
+  "classifier_id": "fruits_apple_nonfruits_peach_pear_96835359",
   "name": "fruits_apple_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:45.302Z",
+  "created": "2016-06-07T18:44:23.243Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -889,11 +889,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_orange_peach_pear_1191841643",
+  "classifier_id": "fruits_apple_orange_peach_pear_1133955677",
   "name": "fruits_apple_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:51.393Z",
+  "created": "2016-06-07T18:44:27.484Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -904,11 +904,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_orange_70486179",
+  "classifier_id": "fruits_banana_grapes_nonfruits_orange_1933988451",
   "name": "fruits_banana_grapes_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:50.850Z",
+  "created": "2016-06-07T18:44:26.910Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -917,11 +917,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_peach_1136354369",
+  "classifier_id": "fruits_banana_grapes_nonfruits_peach_1439803736",
   "name": "fruits_banana_grapes_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:46.731Z",
+  "created": "2016-06-07T18:44:25.586Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -930,11 +930,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_pear_207440722",
+  "classifier_id": "fruits_banana_grapes_nonfruits_pear_2131411915",
   "name": "fruits_banana_grapes_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:47.347Z",
+  "created": "2016-06-07T18:44:28.733Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -943,11 +943,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_orange_peach_98389797",
+  "classifier_id": "fruits_banana_grapes_orange_peach_1355654503",
   "name": "fruits_banana_grapes_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:49.649Z",
+  "created": "2016-06-07T18:44:28.233Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -958,11 +958,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_orange_pear_452226645",
+  "classifier_id": "fruits_banana_grapes_orange_pear_884970838",
   "name": "fruits_banana_grapes_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:47.773Z",
+  "created": "2016-06-07T18:44:28.904Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -973,11 +973,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_peach_pear_876695868",
+  "classifier_id": "fruits_banana_grapes_peach_pear_627600831",
   "name": "fruits_banana_grapes_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:49.824Z",
+  "created": "2016-06-07T18:44:29.774Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -988,11 +988,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_orange_peach_1497789144",
+  "classifier_id": "fruits_banana_nonfruits_orange_peach_121767563",
   "name": "fruits_banana_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:48.457Z",
+  "created": "2016-06-07T18:44:31.637Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1001,11 +1001,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_orange_pear_453267389",
+  "classifier_id": "fruits_banana_nonfruits_orange_pear_538186834",
   "name": "fruits_banana_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:51.093Z",
+  "created": "2016-06-07T18:44:30.806Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1014,11 +1014,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_peach_pear_1687155289",
+  "classifier_id": "fruits_banana_nonfruits_peach_pear_1915436028",
   "name": "fruits_banana_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:51.826Z",
+  "created": "2016-06-07T18:44:36.246Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1027,11 +1027,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_orange_peach_pear_350386480",
+  "classifier_id": "fruits_banana_orange_peach_pear_309646345",
   "name": "fruits_banana_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:49.924Z",
+  "created": "2016-06-07T18:44:37.941Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1042,11 +1042,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_orange_peach_855296147",
+  "classifier_id": "fruits_grapes_nonfruits_orange_peach_50658189",
   "name": "fruits_grapes_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:50.783Z",
+  "created": "2016-06-07T18:44:36.917Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1055,11 +1055,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_orange_pear_2876383",
+  "classifier_id": "fruits_grapes_nonfruits_orange_pear_566457868",
   "name": "fruits_grapes_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:55.783Z",
+  "created": "2016-06-07T18:44:38.275Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1068,11 +1068,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_peach_pear_1728918557",
+  "classifier_id": "fruits_grapes_nonfruits_peach_pear_364966430",
   "name": "fruits_grapes_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:56.552Z",
+  "created": "2016-06-07T18:44:37.852Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1081,11 +1081,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_grapes_orange_peach_pear_700129141",
+  "classifier_id": "fruits_grapes_orange_peach_pear_1433002799",
   "name": "fruits_grapes_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:52.318Z",
+  "created": "2016-06-07T18:44:39.487Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1096,11 +1096,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_nonfruits_orange_peach_pear_48800861",
+  "classifier_id": "fruits_nonfruits_orange_peach_pear_257177207",
   "name": "fruits_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:52.490Z",
+  "created": "2016-06-07T18:44:40.854Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1109,11 +1109,11 @@
     "class": "orange"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_1545779465",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_1414890072",
   "name": "fruits_apple_banana_grapes_non-fruits_orange",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:53.632Z",
+  "created": "2016-06-07T18:44:43.350Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1124,11 +1124,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_peach_1199353520",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_peach_796930428",
   "name": "fruits_apple_banana_grapes_non-fruits_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:58.574Z",
+  "created": "2016-06-07T18:44:47.193Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1139,11 +1139,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_pear_1966982190",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_pear_55313992",
   "name": "fruits_apple_banana_grapes_non-fruits_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:58.644Z",
+  "created": "2016-06-07T18:44:41.783Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1154,11 +1154,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_orange_peach_682085924",
+  "classifier_id": "fruits_apple_banana_grapes_orange_peach_1401467357",
   "name": "fruits_apple_banana_grapes_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:54.712Z",
+  "created": "2016-06-07T18:44:49.280Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1171,11 +1171,11 @@
     "class": "peach"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_orange_pear_1015094601",
+  "classifier_id": "fruits_apple_banana_grapes_orange_pear_1608543660",
   "name": "fruits_apple_banana_grapes_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:58.172Z",
+  "created": "2016-06-07T18:44:47.035Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1188,11 +1188,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_peach_pear_342627334",
+  "classifier_id": "fruits_apple_banana_grapes_peach_pear_469986115",
   "name": "fruits_apple_banana_grapes_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:55.783Z",
+  "created": "2016-06-07T18:44:49.985Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1205,11 +1205,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_orange_peach_1607331956",
+  "classifier_id": "fruits_apple_banana_nonfruits_orange_peach_1185545555",
   "name": "fruits_apple_banana_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:58.186Z",
+  "created": "2016-06-07T18:44:49.164Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1220,11 +1220,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_orange_pear_1248154824",
+  "classifier_id": "fruits_apple_banana_nonfruits_orange_pear_458519845",
   "name": "fruits_apple_banana_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:55.723Z",
+  "created": "2016-06-07T18:44:49.980Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1235,11 +1235,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_peach_pear_893992102",
+  "classifier_id": "fruits_apple_banana_nonfruits_peach_pear_474582159",
   "name": "fruits_apple_banana_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:56.531Z",
+  "created": "2016-06-07T18:44:51.423Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1250,11 +1250,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_orange_peach_pear_1182155760",
+  "classifier_id": "fruits_apple_banana_orange_peach_pear_1495279591",
   "name": "fruits_apple_banana_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:59.233Z",
+  "created": "2016-06-07T18:44:53.260Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1267,11 +1267,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_orange_peach_2028277705",
+  "classifier_id": "fruits_apple_grapes_nonfruits_orange_peach_1142466917",
   "name": "fruits_apple_grapes_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:00:58.933Z",
+  "created": "2016-06-07T18:44:54.981Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1282,11 +1282,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_orange_pear_130689842",
+  "classifier_id": "fruits_apple_grapes_nonfruits_orange_pear_1404063811",
   "name": "fruits_apple_grapes_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:01.174Z",
+  "created": "2016-06-07T18:44:56.959Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1297,11 +1297,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_peach_pear_1743152335",
+  "classifier_id": "fruits_apple_grapes_nonfruits_peach_pear_1157836968",
   "name": "fruits_apple_grapes_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:00.036Z",
+  "created": "2016-06-07T18:45:00.639Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1312,11 +1312,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_orange_peach_pear_536422599",
+  "classifier_id": "fruits_apple_grapes_orange_peach_pear_18155720",
   "name": "fruits_apple_grapes_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:02.500Z",
+  "created": "2016-06-07T18:45:11.203Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1329,11 +1329,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_nonfruits_orange_peach_pear_1166970049",
+  "classifier_id": "fruits_apple_nonfruits_orange_peach_pear_1521398370",
   "name": "fruits_apple_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:03.596Z",
+  "created": "2016-06-07T18:45:02.671Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1344,11 +1344,11 @@
     "class": "apple"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_orange_peach_424541545",
+  "classifier_id": "fruits_banana_grapes_nonfruits_orange_peach_1254894621",
   "name": "fruits_banana_grapes_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:02.119Z",
+  "created": "2016-06-07T18:45:07.380Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1359,11 +1359,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_orange_pear_1005159054",
+  "classifier_id": "fruits_banana_grapes_nonfruits_orange_pear_912063417",
   "name": "fruits_banana_grapes_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:01.927Z",
+  "created": "2016-06-07T18:45:04.962Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1374,11 +1374,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_peach_pear_1155373703",
+  "classifier_id": "fruits_banana_grapes_nonfruits_peach_pear_1686131092",
   "name": "fruits_banana_grapes_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:05.523Z",
+  "created": "2016-06-07T18:45:08.282Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1389,11 +1389,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_orange_peach_pear_1437313583",
+  "classifier_id": "fruits_banana_grapes_orange_peach_pear_1497022008",
   "name": "fruits_banana_grapes_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:04.907Z",
+  "created": "2016-06-07T18:45:08.757Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1406,11 +1406,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_banana_nonfruits_orange_peach_pear_1559384201",
+  "classifier_id": "fruits_banana_nonfruits_orange_peach_pear_1993812711",
   "name": "fruits_banana_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:03.837Z",
+  "created": "2016-06-07T18:45:08.811Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1421,11 +1421,11 @@
     "class": "banana"
   }]
 }, {
-  "classifier_id": "fruits_grapes_nonfruits_orange_peach_pear_1860765570",
+  "classifier_id": "fruits_grapes_nonfruits_orange_peach_pear_600745383",
   "name": "fruits_grapes_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:08.934Z",
+  "created": "2016-06-07T18:45:11.004Z",
   "classes": [{
     "class": "pear"
   }, {
@@ -1436,11 +1436,11 @@
     "class": "grapes"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_peach_120482010",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_peach_563204623",
   "name": "fruits_apple_banana_grapes_non-fruits_orange_peach",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:03.684Z",
+  "created": "2016-06-07T18:45:13.028Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1453,11 +1453,11 @@
     "class": "peach"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_pear_423571286",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_pear_1336836489",
   "name": "fruits_apple_banana_grapes_non-fruits_orange_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:04.908Z",
+  "created": "2016-06-07T18:45:19.277Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1470,11 +1470,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_peach_pear_777526906",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_peach_pear_306332085",
   "name": "fruits_apple_banana_grapes_non-fruits_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:05.462Z",
+  "created": "2016-06-07T18:45:20.655Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1487,11 +1487,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_orange_peach_pear_918513732",
+  "classifier_id": "fruits_apple_banana_grapes_orange_peach_pear_1354736890",
   "name": "fruits_apple_banana_grapes_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:08.994Z",
+  "created": "2016-06-07T18:45:18.732Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1506,11 +1506,11 @@
     "class": "peach"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_nonfruits_orange_peach_pear_2072317340",
+  "classifier_id": "fruits_apple_banana_nonfruits_orange_peach_pear_2099510778",
   "name": "fruits_apple_banana_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:10.858Z",
+  "created": "2016-06-07T18:45:22.307Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1523,11 +1523,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_grapes_nonfruits_orange_peach_pear_1694131022",
+  "classifier_id": "fruits_apple_grapes_nonfruits_orange_peach_pear_1372262160",
   "name": "fruits_apple_grapes_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.437Z",
+  "created": "2016-06-07T18:45:23.705Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1540,11 +1540,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_banana_grapes_nonfruits_orange_peach_pear_166481795",
+  "classifier_id": "fruits_banana_grapes_nonfruits_orange_peach_pear_1786813470",
   "name": "fruits_banana_grapes_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.080Z",
+  "created": "2016-06-07T18:45:24.582Z",
   "classes": [{
     "class": "peach"
   }, {
@@ -1557,11 +1557,11 @@
     "class": "pear"
   }]
 }, {
-  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_peach_pear_650206275",
+  "classifier_id": "fruits_apple_banana_grapes_nonfruits_orange_peach_pear_614956310",
   "name": "fruits_apple_banana_grapes_non-fruits_orange_peach_pear",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.960Z",
+  "created": "2016-06-07T18:45:24.118Z",
   "classes": [{
     "class": "orange"
   }, {
@@ -1576,11 +1576,11 @@
     "class": "peach"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_1864174571",
+  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_805425532",
   "name": "insurance_brokenwinshield_flattire_motorcycleaccident",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.103Z",
+  "created": "2016-06-07T18:45:24.854Z",
   "classes": [{
     "class": "motorcycleaccident"
   }, {
@@ -1589,22 +1589,22 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_negatives_734542216",
+  "classifier_id": "insurance_brokenwinshield_flattire_negatives_1006916409",
   "name": "insurance_brokenwinshield_flattire_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.381Z",
+  "created": "2016-06-07T18:45:25.750Z",
   "classes": [{
     "class": "flattire"
   }, {
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_vandalism_1881685398",
+  "classifier_id": "insurance_brokenwinshield_flattire_vandalism_1435959530",
   "name": "insurance_brokenwinshield_flattire_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:07.947Z",
+  "created": "2016-06-07T18:45:27.375Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1613,22 +1613,22 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_negatives_1563578743",
+  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_negatives_287285014",
   "name": "insurance_brokenwinshield_motorcycleaccident_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:10.312Z",
+  "created": "2016-06-07T18:45:34.142Z",
   "classes": [{
     "class": "motorcycleaccident"
   }, {
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_vandalism_1158028749",
+  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_vandalism_283784975",
   "name": "insurance_brokenwinshield_motorcycleaccident_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:11.344Z",
+  "created": "2016-06-07T18:45:34.994Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1637,33 +1637,33 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_negatives_vandalism_1630509355",
+  "classifier_id": "insurance_brokenwinshield_negatives_vandalism_3346784",
   "name": "insurance_brokenwinshield_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:11.873Z",
+  "created": "2016-06-07T18:45:34.429Z",
   "classes": [{
     "class": "vandalism"
   }, {
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_flattire_motorcycleaccident_negatives_1848988664",
+  "classifier_id": "insurance_flattire_motorcycleaccident_negatives_1586889477",
   "name": "insurance_flattire_motorcycleaccident_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:14.224Z",
+  "created": "2016-06-07T18:45:34.554Z",
   "classes": [{
     "class": "motorcycleaccident"
   }, {
     "class": "flattire"
   }]
 }, {
-  "classifier_id": "insurance_flattire_motorcycleaccident_vandalism_1990717423",
+  "classifier_id": "insurance_flattire_motorcycleaccident_vandalism_1290835146",
   "name": "insurance_flattire_motorcycleaccident_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:14.705Z",
+  "created": "2016-06-07T18:45:35.375Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1672,33 +1672,33 @@
     "class": "flattire"
   }]
 }, {
-  "classifier_id": "insurance_flattire_negatives_vandalism_1208090613",
+  "classifier_id": "insurance_flattire_negatives_vandalism_2059086877",
   "name": "insurance_flattire_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:13.497Z",
+  "created": "2016-06-07T18:45:36.990Z",
   "classes": [{
     "class": "vandalism"
   }, {
     "class": "flattire"
   }]
 }, {
-  "classifier_id": "insurance_motorcycleaccident_negatives_vandalism_1593046822",
+  "classifier_id": "insurance_motorcycleaccident_negatives_vandalism_1570583628",
   "name": "insurance_motorcycleaccident_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:11.879Z",
+  "created": "2016-06-07T18:45:37.501Z",
   "classes": [{
     "class": "vandalism"
   }, {
     "class": "motorcycleaccident"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives_1536885087",
+  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives_1271995515",
   "name": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:19.083Z",
+  "created": "2016-06-07T18:45:38.769Z",
   "classes": [{
     "class": "motorcycleaccident"
   }, {
@@ -1707,11 +1707,11 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_vandalism_1841293152",
+  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_vandalism_683453804",
   "name": "insurance_brokenwinshield_flattire_motorcycleaccident_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:14.204Z",
+  "created": "2016-06-07T18:45:41.473Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1722,11 +1722,11 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_negatives_vandalism_529495408",
+  "classifier_id": "insurance_brokenwinshield_flattire_negatives_vandalism_602394781",
   "name": "insurance_brokenwinshield_flattire_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:18.265Z",
+  "created": "2016-06-07T18:45:42.487Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1735,11 +1735,11 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_negatives_vandalism_1301091771",
+  "classifier_id": "insurance_brokenwinshield_motorcycleaccident_negatives_vandalism_1238550962",
   "name": "insurance_brokenwinshield_motorcycleaccident_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:14.814Z",
+  "created": "2016-06-07T18:45:42.776Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1748,11 +1748,11 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "insurance_flattire_motorcycleaccident_negatives_vandalism_498206580",
+  "classifier_id": "insurance_flattire_motorcycleaccident_negatives_vandalism_357199622",
   "name": "insurance_flattire_motorcycleaccident_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:16.634Z",
+  "created": "2016-06-07T18:45:42.277Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1761,11 +1761,11 @@
     "class": "flattire"
   }]
 }, {
-  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives_vandalism_2136104143",
+  "classifier_id": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives_vandalism_672885768",
   "name": "insurance_brokenwinshield_flattire_motorcycleaccident_negatives_vandalism",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:17.343Z",
+  "created": "2016-06-07T18:45:45.472Z",
   "classes": [{
     "class": "vandalism"
   }, {
@@ -1776,22 +1776,22 @@
     "class": "brokenwinshield"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_negative_286536212",
+  "classifier_id": "moleskine_journaling_landscape_negative_1288318408",
   "name": "moleskine_journaling_landscape_negative",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:20.794Z",
+  "created": "2016-06-07T18:45:44.344Z",
   "classes": [{
     "class": "landscape"
   }, {
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_notebook_2133236914",
+  "classifier_id": "moleskine_journaling_landscape_notebook_1186319990",
   "name": "moleskine_journaling_landscape_notebook",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:16.597Z",
+  "created": "2016-06-07T18:45:46.598Z",
   "classes": [{
     "class": "notebook"
   }, {
@@ -1800,11 +1800,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_portrait_1387704653",
+  "classifier_id": "moleskine_journaling_landscape_portrait_1940405832",
   "name": "moleskine_journaling_landscape_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:21.897Z",
+  "created": "2016-06-07T18:45:45.305Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1813,33 +1813,33 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_negative_notebook_195358768",
+  "classifier_id": "moleskine_journaling_negative_notebook_1260520673",
   "name": "moleskine_journaling_negative_notebook",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:18.904Z",
+  "created": "2016-06-07T18:45:47.376Z",
   "classes": [{
     "class": "notebook"
   }, {
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_negative_portrait_819963745",
+  "classifier_id": "moleskine_journaling_negative_portrait_2074987050",
   "name": "moleskine_journaling_negative_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:25.381Z",
+  "created": "2016-06-07T18:45:56.250Z",
   "classes": [{
     "class": "portrait"
   }, {
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_notebook_portrait_1488697566",
+  "classifier_id": "moleskine_journaling_notebook_portrait_2096274475",
   "name": "moleskine_journaling_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:19.439Z",
+  "created": "2016-06-07T18:45:50.146Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1848,33 +1848,33 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_landscape_negative_notebook_849913938",
+  "classifier_id": "moleskine_landscape_negative_notebook_1564127978",
   "name": "moleskine_landscape_negative_notebook",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:20.969Z",
+  "created": "2016-06-07T18:45:54.035Z",
   "classes": [{
     "class": "notebook"
   }, {
     "class": "landscape"
   }]
 }, {
-  "classifier_id": "moleskine_landscape_negative_portrait_1467873465",
+  "classifier_id": "moleskine_landscape_negative_portrait_385545822",
   "name": "moleskine_landscape_negative_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:25.426Z",
+  "created": "2016-06-07T18:45:54.268Z",
   "classes": [{
     "class": "portrait"
   }, {
     "class": "landscape"
   }]
 }, {
-  "classifier_id": "moleskine_landscape_notebook_portrait_665321598",
+  "classifier_id": "moleskine_landscape_notebook_portrait_1191879303",
   "name": "moleskine_landscape_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:24.350Z",
+  "created": "2016-06-07T18:45:57.948Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1883,22 +1883,22 @@
     "class": "landscape"
   }]
 }, {
-  "classifier_id": "moleskine_negative_notebook_portrait_329411217",
+  "classifier_id": "moleskine_negative_notebook_portrait_1456041252",
   "name": "moleskine_negative_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:26.829Z",
+  "created": "2016-06-07T18:45:58.164Z",
   "classes": [{
     "class": "portrait"
   }, {
     "class": "notebook"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_negative_notebook_1203528589",
+  "classifier_id": "moleskine_journaling_landscape_negative_notebook_531228599",
   "name": "moleskine_journaling_landscape_negative_notebook",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:28.468Z",
+  "created": "2016-06-07T18:45:57.491Z",
   "classes": [{
     "class": "notebook"
   }, {
@@ -1907,11 +1907,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_negative_portrait_908096207",
+  "classifier_id": "moleskine_journaling_landscape_negative_portrait_1690145819",
   "name": "moleskine_journaling_landscape_negative_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:28.349Z",
+  "created": "2016-06-07T18:45:59.617Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1920,11 +1920,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_notebook_portrait_1628027528",
+  "classifier_id": "moleskine_journaling_landscape_notebook_portrait_82925602",
   "name": "moleskine_journaling_landscape_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:28.209Z",
+  "created": "2016-06-07T18:46:08.760Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1935,11 +1935,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_negative_notebook_portrait_1998158730",
+  "classifier_id": "moleskine_journaling_negative_notebook_portrait_548213016",
   "name": "moleskine_journaling_negative_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:26.144Z",
+  "created": "2016-06-07T18:46:02.398Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1948,11 +1948,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "moleskine_landscape_negative_notebook_portrait_1255651803",
+  "classifier_id": "moleskine_landscape_negative_notebook_portrait_849560391",
   "name": "moleskine_landscape_negative_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:27.360Z",
+  "created": "2016-06-07T18:45:59.061Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1961,11 +1961,11 @@
     "class": "landscape"
   }]
 }, {
-  "classifier_id": "moleskine_journaling_landscape_negative_notebook_portrait_258717",
+  "classifier_id": "moleskine_journaling_landscape_negative_notebook_portrait_247562999",
   "name": "moleskine_journaling_landscape_negative_notebook_portrait",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:27.634Z",
+  "created": "2016-06-07T18:46:03.815Z",
   "classes": [{
     "class": "portrait"
   }, {
@@ -1976,11 +1976,11 @@
     "class": "journaling"
   }]
 }, {
-  "classifier_id": "omniearth_baseball_cars_golf_892939164",
+  "classifier_id": "omniearth_baseball_cars_golf_601002893",
   "name": "omniearth_baseball_cars_golf",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:46.817Z",
+  "created": "2016-06-07T18:46:12.937Z",
   "classes": [{
     "class": "golf"
   }, {
@@ -1989,11 +1989,11 @@
     "class": "baseball"
   }]
 }, {
-  "classifier_id": "omniearth_baseball_cars_tennis_268956209",
+  "classifier_id": "omniearth_baseball_cars_tennis_1410232668",
   "name": "omniearth_baseball_cars_tennis",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:40.313Z",
+  "created": "2016-06-07T18:46:14.687Z",
   "classes": [{
     "class": "tennis"
   }, {
@@ -2002,11 +2002,11 @@
     "class": "baseball"
   }]
 }, {
-  "classifier_id": "omniearth_baseball_golf_tennis_916541948",
+  "classifier_id": "omniearth_baseball_golf_tennis_1426814031",
   "name": "omniearth_baseball_golf_tennis",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:36.203Z",
+  "created": "2016-06-07T18:46:19.106Z",
   "classes": [{
     "class": "tennis"
   }, {
@@ -2015,11 +2015,11 @@
     "class": "baseball"
   }]
 }, {
-  "classifier_id": "omniearth_cars_golf_tennis_1823192734",
+  "classifier_id": "omniearth_cars_golf_tennis_1124973945",
   "name": "omniearth_cars_golf_tennis",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:38.559Z",
+  "created": "2016-06-07T18:46:21.885Z",
   "classes": [{
     "class": "tennis"
   }, {
@@ -2028,11 +2028,11 @@
     "class": "cars"
   }]
 }, {
-  "classifier_id": "omniearth_baseball_cars_golf_tennis_1216222275",
+  "classifier_id": "omniearth_baseball_cars_golf_tennis_934563558",
   "name": "omniearth_baseball_cars_golf_tennis",
   "owner": "a3a48ea7-492b-448b-87d7-9dade8bde5a9",
   "status": "ready",
-  "created": "2016-06-08T19:01:47.016Z",
+  "created": "2016-06-07T18:46:25.511Z",
   "classes": [{
     "class": "tennis"
   }, {
